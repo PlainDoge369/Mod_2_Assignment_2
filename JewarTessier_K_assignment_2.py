@@ -38,3 +38,16 @@ print("Combined list:", combined)
 provinces = ("British Columbia", "Yukon", "Nova-Scotia", "Manitoba")
 print("Type:", type(provinces))
 print("Tuple:", provinces)
+
+# DICTIONARIES
+
+coins = {'nickel': 0.05, 'dime': 0.10, 'quarter': 0.25}
+print("Type:", type(coins))
+print("Dictionary:", coins)
+coins['nickel'] = 5
+coins['dime'] = 10
+coins['quarter'] = 25
+print("Dictionary with whole numbers:", coins)
+coins['Loonie'] = 100
+coins['Toonie'] = 200
+print("Dictionary with Loonie and Toonie:", coins)
