@@ -32,3 +32,9 @@ print("List without 9:", numbers)
 letters = ['A', 'B', 'C']
 combined = numbers + letters
 print("Combined list:", combined)
+
+# TUPLES
+ 
+provinces = ("British Columbia", "Yukon", "Nova-Scotia", "Manitoba")
+print("Type:", type(provinces))
+print("Tuple:", provinces)
