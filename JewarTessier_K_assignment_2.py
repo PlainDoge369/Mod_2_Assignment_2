@@ -51,3 +51,19 @@ print("Dictionary with whole numbers:", coins)
 coins['Loonie'] = 100
 coins['Toonie'] = 200
 print("Dictionary with Loonie and Toonie:", coins)
+
+# SETS
+
+evens = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20}
+print("Type:", type(evens))
+print("Evens:", evens)
+multiples_of_5 = {5, 10, 15, 20}
+print("Multiples of 5:", multiples_of_5)
+unique_values = evens, multiples_of_5
+print("Unique values:", unique_values)
+common_values = evens, multiples_of_5
+print("Common values:", common_values)
+evens_only = evens, multiples_of_5
+print("Evens only:", evens_only)
+multiples_of_5_only = multiples_of_5, evens
+print("Multiples of 5 only:", multiples_of_5_only)
